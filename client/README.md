@@ -1,6 +1,6 @@
-# 🍽️ ServeU Client
+# MyPocket Client
 
-The client-side app of **ServeU**.
+The client-side app of **MyPocket**.
 
 ## Getting started
 
@@ -29,10 +29,6 @@ Tests are TBD.
 ```sh
 yarn test
 ```
-
-## Resources
-
-I used my personal ESLint, Prettier, and TypeScript config available [here](https://github.com/vinhvn/airbnb-prettier-typescript-config).
 
 ### Credits
 
