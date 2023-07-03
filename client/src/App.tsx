@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Redirect, Switch, Route } from 'react-router-dom';
+import { isLoggedIn } from './services/auth';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Loader from './components/Loader';
+import Login from './pages/Login';
 
 function App() {
   const [loaded, setLoaded] = useState(false);
@@ -17,9 +19,34 @@ function App() {
     }
     return setLoaded(true);
   }, []);
+
+  const PublicOnlyRoute = ({
+    component: Component,
+    ...rest
+  }: Record<string, any>) => (
+    <Route
+      {...rest}
+      render={(props) =>
+        !isLoggedIn() ? (
+          <Component {...props} />
+        ) : (
+          <Redirect
+            to={{
+              pathname: '/',
+              state: { from: props.location },
+            }}
+          />
+        )
+      }
+    />
+  );
+
   return (
     <BrowserRouter>
       <Navbar />
+      <Switch>
+        <PublicOnlyRoute path="/login" component={Login} />
+      </Switch>
       <Footer />
       <Loader loaded={loaded} />
     </BrowserRouter>
