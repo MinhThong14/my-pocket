@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Loader from './components/Loader';
 import Login from './pages/Login';
+import NotFound from './pages/NotFound';
 
 function App() {
   const [loaded, setLoaded] = useState(false);
@@ -46,6 +47,7 @@ function App() {
       <Navbar />
       <Switch>
         <PublicOnlyRoute path="/login" component={Login} />
+        <Route exact path="/404" component={NotFound} />
       </Switch>
       <Footer />
       <Loader loaded={loaded} />
