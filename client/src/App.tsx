@@ -7,6 +7,7 @@ import Loader from './components/Loader';
 import Login from './pages/Login';
 import NotFound from './pages/NotFound';
 import Upload from './pages/Upload';
+import File from './pages/File';
 
 function App() {
   const [loaded, setLoaded] = useState(false);
@@ -71,6 +72,7 @@ function App() {
         <PublicOnlyRoute path="/login" component={Login} />
         <Route exact path="/404" component={NotFound} />
         <PrivateRoute path="/upload" component={Upload} />
+        <PrivateRoute path=":/id" component={File} />
       </Switch>
       <Footer />
       <Loader loaded={loaded} />
