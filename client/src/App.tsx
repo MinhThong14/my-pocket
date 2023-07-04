@@ -7,6 +7,7 @@ import Loader from './components/Loader';
 import Login from './pages/Login';
 import NotFound from './pages/NotFound';
 import Upload from './pages/Upload';
+import Files from './pages/Files';
 import File from './pages/File';
 
 function App() {
@@ -70,6 +71,7 @@ function App() {
       <Navbar />
       <Switch>
         <PublicOnlyRoute path="/login" component={Login} />
+        <PrivateRoute exact path="/" compoent={Files} />
         <Route exact path="/404" component={NotFound} />
         <PrivateRoute path="/upload" component={Upload} />
         <PrivateRoute path=":/id" component={File} />
