@@ -2,16 +2,17 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Redirect, Switch, Route } from 'react-router-dom';
 import { isLoggedIn } from './services/auth';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
 import Loader from './components/Loader';
+import Footer from './components/Footer';
 import Login from './pages/Login';
-import NotFound from './pages/NotFound';
-import Upload from './pages/Upload';
-import Files from './pages/Files';
 import File from './pages/File';
+import Files from './pages/Files';
+import Upload from './pages/Upload';
+import NotFound from './pages/NotFound';
 
 function App() {
   const [loaded, setLoaded] = useState(false);
+
   // mock loading effect
   useEffect(() => {
     if (!window.sessionStorage.getItem('isLoaded')) {
@@ -71,10 +72,10 @@ function App() {
       <Navbar />
       <Switch>
         <PublicOnlyRoute path="/login" component={Login} />
-        <PrivateRoute exact path="/" compoent={Files} />
+        <PrivateRoute exact path="/" component={Files} />
         <Route exact path="/404" component={NotFound} />
         <PrivateRoute path="/upload" component={Upload} />
-        <PrivateRoute path=":/id" component={File} />
+        <PrivateRoute path="/:id" component={File} />
       </Switch>
       <Footer />
       <Loader loaded={loaded} />
