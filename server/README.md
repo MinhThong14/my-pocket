@@ -1,6 +1,6 @@
-# 🍽️ ServeU Client
+# 🍽️ My Pocket Server
 
-The client-side app of **ServeU**.
+The server-side app of **MyPocket**.
 
 ## Getting started
 
@@ -12,14 +12,12 @@ yarn install
 
 ```sh
 yarn dev
-# or
-yarn start
 ```
 
-### Building for production
+### Start without reloads
 
 ```sh
-yarn build
+yarn start
 ```
 
 ### Running tests
@@ -29,4 +27,3 @@ Tests are TBD.
 ```sh
 yarn test
 ```
-
