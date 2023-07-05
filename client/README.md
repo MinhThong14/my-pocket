@@ -30,10 +30,3 @@ Tests are TBD.
 yarn test
 ```
 
-## Resources
-
-I used my personal ESLint, Prettier, and TypeScript config available [here](https://github.com/vinhvn/airbnb-prettier-typescript-config).
-
-### Credits
-
-Bootstrapped with the amazing [CRA TailwindCSS and TypeScript template](https://github.com/dance2die/cra-template-tailwindcss-typescript).
