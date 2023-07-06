@@ -2,7 +2,7 @@
 A handy application that help user upload and store serve static files. Generally, It is seem like a private asset repository.
 
 ## 🔍 Preview
-![Preview](docs/my-pocket-preview.gif){ width="800" height="600" style="display: block; margin: 0 auto" }
+![Preview](docs/my-pocket-preview.gif){:.centered}
 
 ## 🚀 Features
 
