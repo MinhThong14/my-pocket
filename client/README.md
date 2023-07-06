@@ -1,6 +1,6 @@
-# 🍽️ ServeU Client
+# 🍽️ MyPocket Client
 
-The client-side app of **ServeU**.
+The client-side app of **MyPocket**.
 
 ## Getting started
 
