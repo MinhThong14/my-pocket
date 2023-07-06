@@ -1,4 +1,4 @@
-# 🍽️ MyPocket Client
+# MyPocket Client
 
 The client-side app of **MyPocket**.
 
