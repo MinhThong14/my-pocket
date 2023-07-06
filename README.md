@@ -1,10 +1,8 @@
-p<img src="./docs/my-pocket-banner.png" width="1024px">
+<img src="./docs/my-pocket-banner.png" width="1024px">
 A handy application that help user upload and store serve static files. Generally, It is seem like a private asset repository.
 
 ## 🔍 Preview
-<p align="center>
-<img src="./docs/my-pocket-preview.gif">
-</p>
+![Preview](docs/my-pocket-preview.gif)
 
 ## 🚀 Features
 
