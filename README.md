@@ -4,7 +4,7 @@ A handy application that help user upload and store serve static files. Generall
 ## 🔍 Preview
 
 ![Preview](docs/my-pocket-preview.gif)
-gif
+
 
 ## 🚀 Features
 
