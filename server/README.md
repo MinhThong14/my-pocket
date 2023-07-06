@@ -1,4 +1,4 @@
-# 🍽️ My Pocket Server
+# My Pocket Server
 
 The server-side app of **MyPocket**.
 
