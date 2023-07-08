@@ -1,10 +1,9 @@
-<img src="./docs/my-pocket-banner.png" width="1024px">
+demo<img src="./docs/my-pocket-banner.png" width="1024px">
 A handy application that help user upload and store serve static files. Generally, It is seem like a private asset repository.
 
 ## 🔍 Preview
 
-https://github.com/MinhThong14/my-pocket/assets/64180472/7aae9855-c9b0-4ca5-916b-3be8dd59f21b
-
+https://github.com/MinhThong14/my-pocket/assets/64180472/1f76faf0-738e-48f9-a66b-868ee8cc0513
 
 ## 🚀 Features
 
