@@ -4,6 +4,9 @@ A handy application that help user upload and store serve static files. Generall
 ## 🔍 Preview
 ![Preview](docs/my-pocket-preview.gif)
 
+https://github.com/MinhThong14/my-pocket/assets/64180472/7aae9855-c9b0-4ca5-916b-3be8dd59f21b
+
+
 ## 🚀 Features
 
 **MyPocket** is a application that allow users upload, store and share files with theirs friends, family and co-workers.
