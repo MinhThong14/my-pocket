@@ -2,7 +2,6 @@
 A handy application that help user upload and store serve static files. Generally, It is seem like a private asset repository.
 
 ## 🔍 Preview
-![Preview](docs/my-pocket-preview.gif)
 
 https://github.com/MinhThong14/my-pocket/assets/64180472/7aae9855-c9b0-4ca5-916b-3be8dd59f21b
 
